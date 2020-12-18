@@ -1,0 +1,11 @@
+auth_controllers:
+    resource: ../../src/Authentication/Presentation/Http/Controllers
+    type: annotation
+
+task_controllers:
+    resource: ../../src/Tasks/Presentation/Http/Controllers
+    type: annotation
+
+kernel:
+    resource: ../../src/Kernel.php
+    type: annotation
